@@ -1,0 +1,1 @@
+This is an simple POS app which is created for assignment purpose
