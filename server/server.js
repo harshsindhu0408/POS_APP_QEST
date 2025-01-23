@@ -28,6 +28,13 @@ app.use("/api/bills", require("./routes/billsRoute"));
 //port
 const PORT = process.env.PORT || 8080;
 
+app.get("/", (req, res) => {
+	return res.json({
+		success: true,
+		message: "Your server is up and running ...",
+	});
+});
+
 //listen
 app.listen(PORT, () => {
   console.log(`Server Running On Port ${PORT}`.bgCyan.white);
