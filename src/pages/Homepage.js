@@ -53,7 +53,7 @@ const Homepage = () => {
         <h2 className="text-xl font-bold text-gray-800 mb-4 text-center">
           Browse by Categories
         </h2>
-        <div className="grid grid-cols-2 md:grid-cols-8 gap-6 justify-items-center">
+        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 xl:grid-cols-8 gap-4 sm:gap-6 justify-items-center">
           {categories.map((category) => (
             <div
               key={category.name}
@@ -67,10 +67,10 @@ const Homepage = () => {
               <img
                 src={category.imageUrl}
                 alt={category.name}
-                className="mb-3 h-20 w-24 object-contain"
+                className="mb-3 h-16 w-16 sm:h-20 sm:w-24 object-contain"
               />
               <h4
-                className={`text-lg font-medium capitalize ${
+                className={`text-sm sm:text-base font-medium capitalize ${
                   selecedCategory === category.name
                     ? "text-blue-600"
                     : "text-gray-800"

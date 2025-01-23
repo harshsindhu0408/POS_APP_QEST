@@ -1,6 +1,6 @@
 const billsModel = require("../models/billsModel");
 
-//add items
+//add bill items
 const addBillsController = async (req, res) => {
   try {
     const newBill = new billsModel(req.body);

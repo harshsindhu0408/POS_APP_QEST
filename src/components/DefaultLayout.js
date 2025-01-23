@@ -34,7 +34,7 @@ const DefaultLayout = ({ children }) => {
       {loading && <Spinner />}
       <Sider trigger={null} collapsible collapsed={collapsed}>
         <div className="logo">
-          <h1 className="text-center text-white text-light font-wight-bold mt-4">POS</h1>
+          <h1 className="text-center text-white text-light font-wight-bold mt-4">QEST POS</h1>
         </div>
         <Menu
           theme="dark"
