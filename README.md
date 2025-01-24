@@ -1,5 +1,9 @@
 # React & Tailwind CSS Starter Pack
 
+You can login with
+userId - harshsindhu0408
+pass - 123456
+
 This is a starter pack for creating React projects with Tailwind CSS configured. It uses React version **18.2** and Tailwind CSS version **3.2**.
 
 ## Usage
